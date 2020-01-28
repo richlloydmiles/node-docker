@@ -1,0 +1,12 @@
+{
+  "name": "node-docker",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "nodemon server.js",
+    "services:up": "docker-compose up",
+    "services:buildup": "docker-compose up --build"
+  },
+  "author": "",
+  "license": "ISC"
+}
